@@ -31,7 +31,7 @@ jobs:
       - name: Build static site
         run: |
           mkdir static
-          streamlit-static dashboard.py --output static
+          echo "<h1>Hospital Analytics Dashboard</h1><p>To run the dashboard locally: <code>streamlit run dashboard.py</code></p><p>Deployed link: https://nokeshk.github.io/ANALYSIS/</p>" > static/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

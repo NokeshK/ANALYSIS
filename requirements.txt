@@ -9,4 +9,3 @@ plotly
 geopy
 streamlit-folium
 folium
-streamlit-static
