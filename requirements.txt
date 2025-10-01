@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+mysql-connector-python
+jupyter
+streamlit
+plotly
+geopy
+streamlit-folium
+folium
